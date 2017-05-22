@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+  <PawnKindDef Abstract="True" Name="BaseArgoPawnKind">
+    <race>Alien_Argonian</race>
+    <combatPower>40</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseArgoPawnKind">
+    <defName>Argonian</defName>
+    <label>colonist</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryCategory>ArgonianBackstory</backstoryCategory>
+	<apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelTags>
+      <li>Tribal</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+</PawnKindDefs>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="ArgoFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="ArgoFactionBase">
+    <defName>ArgoPlayerColony</defName>
+    <label>Argonian Tribe</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Argonian</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategory>ArgonianBackstory</backstoryCategory>
+    <homeIconPath>World/ArgoBase</homeIconPath>
+    <expandingIconTexture>World/ArgoBase</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>ArgoHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+  </FactionDef>
+  
+
+</Defs>

@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.BackstoryDef>
+    <defName>ArgonianScout</defName>
+    <title>Argonian scout</title>
+    <titleShort>Scout</titleShort>
+    <baseDescription>NAME is a young scout, training to be a hunter for HIS tribe. HECAP works with the older hunters to, learn the game paths and watering holes, and how to treat the scrapes and bruises that may happen along the way.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+      <defName>ArgonianBigKid</defName>
+      <title>Argonian wrestler</title>
+      <titleShort>Wrestler</titleShort>
+      <baseDescription>NAME was strong fron the time HECAP was hatched, and could often be found wrestling and rough-housing with other youths.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+  		<maleCommonality>20</maleCommonality>
+  	<femaleCommonality>20</femaleCommonality>
+      <slot>Childhood</slot>
+      <skillGains>
+        <li>
+          <defName>Animals</defName>
+          <amount>4</amount>
+        </li>
+        <li>
+          <defName>Medicine</defName>
+          <amount>2</amount>
+        </li>
+  	  <li>
+          <defName>Shooting</defName>
+          <amount>2</amount>
+        </li>
+      </skillGains>
+      <spawnCategories>
+        <li>ArgonianBackstory</li>
+      </spawnCategories>
+    </AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArgonianMonk</defName>
+    <title>Argonian monk</title>
+	<titleShort>Monk</titleShort>
+    <baseDescription>NAME was born in an ancient monastery devoted to martial arts. HECAP was raised to master various forms of physical combat and extend his physical limitations.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArgonianCurious</defName>
+    <title>Curious hatchling</title>
+	<titleShort>Curious</titleShort>
+    <baseDescription>NAME was always the curious one. Getting into things - making some small trouble for the tenders at the hatching-pools, but never anything malicious. This curiosity never faded, and grew into a thirst for all knowledge.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>90</maleCommonality>
+	<femaleCommonality>90</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArgonianDigKid</defName>
+    <title>Little digger</title>
+	<titleShort>Digger</titleShort>
+    <baseDescription>NAME was constantly playing in the mud or sand, anywhere HECAP could dig and burrow and build. The others used to chuckle a bit, that HECAP must be part Kwama.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>50</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArgonianMiner</defName>
+    <title>Argonian miner</title>
+	<titleShort>Miner</titleShort>
+    <baseDescription>NAME loves rocks and digging. HECAP feels right at home in a dank cave, so long as HECAP has a pick and a light. However, an incident involving an overamorous bear has left HIM more than reluctant to deal with animals of any kind.</baseDescription>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+		<workDisables>
+        <li>Animals</li>
+	   </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArgonianMaid</defName>
+    <title>Argonian maid</title>
+	<titleShort>Lusty</titleShort>
+    <baseDescription>NAME is just a simple maid, sir, and has no idea what you imply.</baseDescription>
+    <slot>Adulthood</slot>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArgonianTribal</defName>
+    <title>Argo tribesman</title>
+	<titleShort>Tribesman</titleShort>
+    <baseDescription>Most of the Argonian people are 'simple' tribesmen and women, like NAME. A hardy people, due to the harsh environment.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>100</maleCommonality>
+	<femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArgonianBuilder</defName>
+    <title>Argonian builder</title>
+	<titleShort>Builder</titleShort>
+    <baseDescription>Facing the rough winter nights makes you appreciate a good hut. As such, a good builder is a valued member of any Argonian community.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>50</maleCommonality>
+	<femaleCommonality>50</femaleCommonality>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Hulk</bodyTypeMale>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+	        <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>Argonianminder</defName>
+    <title>Apprentice treeminder</title>
+    <titleShort>Minder</titleShort>
+    <baseDescription>NAME was raised from a hatchling to apprentice under the Tree-Minders. Learning the more mundane toils and herbalism skills needed for their advanced alchemy. Those who are not chosen as Tree-Minders, are still valued as skilled herbalists and healers.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+      <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+
+	    <AlienRace.BackstoryDef>
+    <defName>ArgonianAdopt</defName>
+    <title>Adopted</title>
+    <titleShort>Adopted</titleShort>
+    <baseDescription>Rescued from a strange pod, NAME was taken in and raised by an old farmer and his wife. Though HECAP never got the hang of farming, HIS great strength was a life-saver for the elderly Kents...</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+      <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Growing</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+        <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+	   <workDisables>
+        <li>Firefighting</li>
+	   </workDisables>
+    </AlienRace.BackstoryDef>
+
+
+    <AlienRace.BackstoryDef>
+    <defName>ArgonianTribekid</defName>
+    <title>Argonian tribe child</title>
+    <titleShort>Argonian</titleShort>
+    <baseDescription>NAME was born in a small village. HECAP had to learn to carry HIS weight and keep the tribe fed from an early age.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>60</maleCommonality>
+	<femaleCommonality>60</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>ArgonianCoreKid</defName>
+    <title>Argonian crafter</title>
+    <titleShort>Crafter</titleShort>
+    <baseDescription>NAME has always been making little things for HIS family. Naturally, they encouraged his skill with craftsmanship, and HECAP is developing into quite the artisan.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>ArgonianWeapon</defName>
+    <title>Weaponsmith</title>
+    <titleShort>Weaponsmith</titleShort>
+    <baseDescription>NAME found HECAP had a natural talent and love for making blades and weaponry. HECAP has made sure HIS tribe has the finest weapons HECAP can craft.</baseDescription>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>40</maleCommonality>
+	<femaleCommonality>40</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>ArgonianMedic</defName>
+    <title>Argonian healer</title>
+    <titleShort>Healer</titleShort>
+    <baseDescription>NAME tends the wounds of the warriors and hunters wounded in combat, and tends to the more mundane illnesses, fevers and injuries among the tribe. HECAP is very well respected for HIS talents.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>ArgonianHunterBS</defName>
+    <title>Argonian hunter</title>
+    <titleShort>Hunter</titleShort>
+    <baseDescription>NAME is a hunter. HECAP makes sure HIS tribe is well fed, learning the game paths and watering holes. HE makes sure to keep the predators down as well, for HIS own people, and the game they share.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
+    <defName>GuarHerder</defName>
+    <title>Guar farmer</title>
+    <titleShort>GuarHerd</titleShort>
+    <baseDescription>NAME had raised Guar for many years in the old swamps. HECAP has grown quite skilled at handing animals of most kinds.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>FighterArgonian</defName>
+    <title>Argonian fighter</title>
+    <titleShort>Fighter</titleShort>
+    <baseDescription>NAME is a rank-and-file soldier for his tribe. HECAP keeps dangerous creatures or people from attacking the village, sometimes perhaps raiding other tribes for supplies or people... perhaps.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>ArgonianCook</defName>
+    <title>Argonian cook</title>
+    <titleShort></titleShort>
+    <baseDescription>NAME had the mixed blessing of being the best cook in HIS large tribe. It means everyone was grateful for fine meals, but HECAP also often took the blame for a bad case of indigestion. Fortunately, NAME has cultivated a fine hand for preparing meals to avoid any grief.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>7</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>HerbArgonian</defName>
+    <title>Argonian alchemist</title>
+    <titleShort>Alchemist</titleShort>
+    <baseDescription>NAME is known as the best healer and herbalist within leagues of HIS tribe. HECAP has learned all about the medical (and other) applications of every plant that can be used in the region, and many beyond, and knows how to properly prepare and apply them to poultices or brews for maximum effect.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>FreedMiner</defName>
+    <title>Argonian rescued</title>
+    <titleShort>Rescued</titleShort>
+    <baseDescription>NAME was kidnapped and enslaved, working in a dark mine with little to eat - until a wandering hero (perhaps just looking to loot the cave for himself) freed HIM from HIS bonds. Since then, HECAP has grown very fond of cooking lavish meals, and still retains a good skill with a pick.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+    <AlienRace.BackstoryDef>
+    <defName>CMDArgonian</defName>
+    <title>Argonian champion</title>
+    <titleShort>Champion</titleShort>
+    <baseDescription>NAME is HIS people's champion. HECAP has become very skilled in combat after years of defending HIS tribe from the innumerable threats that they face.</baseDescription>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>ArgonianSpacerAdult</defName>
+    <title>Argonian trader</title>
+    <titleShort>Trader</titleShort>
+    <baseDescription>NAME was a free-trader, roving the globe searching for deals and opportunities for profit. Until now, HECAP was heading a caravan, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+      <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+
+	    <AlienRace.BackstoryDef>
+    <defName>ArgonianShadowscaleKid</defName>
+    <title>Shadowscale</title>
+    <titleShort>Shadowscale</titleShort>
+    <baseDescription>NAME was raised to be a skilled assassin, delivering souls to HIS maker, Sithis.</baseDescription>
+    <slot>Childhood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+      <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+    <defName>ArgonianShadowscale</defName>
+    <title>Shadowscale</title>
+    <titleShort>Shadowscale</titleShort>
+    <baseDescription>NAME has spent years refining HIS skills of infiltration and assassination. HECAP is persuasive, stealthy, and ruthless. A deadly adversary.</baseDescription>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+      <spawnCategories>
+      <li>ArgonianBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+	   <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+</Defs>
