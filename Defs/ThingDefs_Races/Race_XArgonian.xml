@@ -177,7 +177,7 @@
             <alienslavekinds>
                 <li>
                     <kindDefs>
-                        <li>ArgoHunter</li>
+                        <li>ArgoSlave</li>
                     </kindDefs>
                     <chance>40.0</chance>
                 </li>
@@ -185,10 +185,9 @@
             <alienrefugeekinds>
                 <li>
                     <kindDefs>
-                        <li>ArgoShadowscale</li>
-						<li>ArgoHunter</li>
+						<li>ArgoRefugee</li>
                     </kindDefs>
-                    <chance>50.0</chance>
+                    <chance>40.0</chance>
                 </li>
             </alienrefugeekinds>
 			<startingColonists>
@@ -225,7 +224,7 @@
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>PlayerColony</li> 
+                        <li>ArgoPlayerColony</li> 
                     </factionDefs>
                 </li>
             </alienwandererkinds>

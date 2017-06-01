@@ -95,6 +95,16 @@
     <label>colony trader</label>
     <trader>true</trader>
   </PawnKindDef>
+
+    <PawnKindDef ParentName="ArgoCivBase">
+    <defName>ArgoSlave</defName>
+    <label>slave</label>
+  </PawnKindDef>
+
+    <PawnKindDef ParentName="ArgoCivBase">
+    <defName>ArgoRefugee</defName>
+    <label>refugee</label>
+  </PawnKindDef>
   
 
   
