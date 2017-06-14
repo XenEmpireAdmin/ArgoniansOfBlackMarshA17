@@ -286,6 +286,7 @@
       <leatherInsulation>0.70</leatherInsulation>
       <leatherMarketValueFactor>3</leatherMarketValueFactor>
       <nameGenerator>NamerPersonArgo</nameGenerator>
+      <nameGeneratorFemale>NamerPersonArgoF</nameGeneratorFemale>
       <body>Argonian</body>
       <bloodDef>FilthBloodArgo</bloodDef>	
       <meatColor>(0, 100, 0)</meatColor>

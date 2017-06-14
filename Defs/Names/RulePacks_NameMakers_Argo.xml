@@ -6,10 +6,9 @@
     <rulePack>
       <rulesStrings>
         <li>name->[Argofirst] [Argolast]</li>
-        <li>name->[Argolast] [roman]</li>
+        <li>name->[Argofirst] [badassargo]</li>
         <li>name->'[badassargo]'</li>
-        <li>name->[roman] '[Argolast]'</li>
-        <li>name->'[badassargo]' [roman]</li>
+        <li>name->'[badassargo]' [Argolast]</li>
 
       </rulesStrings>
       <rulesRaw>
@@ -24,6 +23,37 @@
         <li Class="Rule_File">
           <keyword>badassargo</keyword>
           <path>Argo_Names/Concepts_XenArgo</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>roman</keyword>
+          <path>Words/Misc/Numbers_SmallRoman</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+<RulePackDef>
+    <defName>NamerPersonArgoF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Argofirst] [Argolast]</li>
+        <li>name->[Argofirst] [badassargof]</li>
+        <li>name->'[badassargof]'</li>
+        <li>name->'[badassargof]' [Argolast]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Argofirst</keyword>
+          <path>Argo_Names/Argo</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Argolast</keyword>
+          <path>Argo_Names/Argolast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassargof</keyword>
+          <path>Argo_Names/Concepts_XenArgoF</path>
         </li>
         <li Class="Rule_File">
           <keyword>roman</keyword>

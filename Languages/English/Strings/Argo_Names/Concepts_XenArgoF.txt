@@ -35,12 +35,12 @@ Eyes-the-Path
 Fast-Finder
 Fetches-Glitter
 Fills-Up-on-Fish
-Fire-Under-His-Tongue
+Fire-Under-Her-Tongue
 Fish-Fingers
 Fish-Whispers
 Five-Coins
 Flat-Head
-Flicks-His-Tongue
+Flicks-Her-Tongue
 Forest-Child
 Friends-with-Moon
 Frog-Swallows-Frog
@@ -223,7 +223,7 @@ Head-in-Clouds
 Hears-the-Stone
 Heat-On-Scales
 Hides-Aplenty
-Hides-His-Heart
+Hides-Her-Heart
 Hides-the-Ashes
 Honey-Nose
 In-No-Hurry
@@ -270,7 +270,7 @@ Scales-Like-Silver
 Scales-Like-Steel
 Scared-of-Snow
 Seeks-Better-Deals
-Seeks-His-Glory
+Seeks-Her-Glory
 Seeks-Old-Words
 Seeks-White-Bird
 Sees-All-Colors
