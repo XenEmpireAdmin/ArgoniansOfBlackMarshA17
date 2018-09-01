@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ThingDefs>
+<Defs>
 
    
   <ThingDef ParentName="BodyPartArtificialBase">
@@ -8,7 +8,7 @@
     <label>bionic argonian tail</label>
     <description>A technical marvel! intricate gyroscopic feedback systems allow increased movement and dexterity! Praise the Hist!</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -25,7 +25,7 @@
     <label>cloth tail</label>
     <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -37,4 +37,4 @@
     </techHediffsTags>
   </ThingDef>
   
-</ThingDefs>
+</Defs>

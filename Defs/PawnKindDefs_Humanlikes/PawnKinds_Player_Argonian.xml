@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <PawnKindDef Abstract="True" Name="BaseArgoPawnKind">
     <race>Alien_Argonian</race>
@@ -14,8 +14,10 @@
     <defName>Argonian</defName>
     <label>colonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>ArgonianBackstory</backstoryCategory>
-	<apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <backstoryCategories>
+			<li>ArgonianBackstory</li>
+  	</backstoryCategories>
+	<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Tribal</li>
     </apparelTags>
@@ -26,4 +28,4 @@
     <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

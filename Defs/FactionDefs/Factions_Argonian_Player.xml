@@ -14,9 +14,13 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Argonian</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+		<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
     <techLevel>Neolithic</techLevel>
-    <backstoryCategory>ArgonianBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>ArgonianBackstory</li>
+  	</backstoryCategories>
     <homeIconPath>World/ArgoBase</homeIconPath>
     <expandingIconTexture>World/ArgoBase</expandingIconTexture>
     <startingResearchTags>

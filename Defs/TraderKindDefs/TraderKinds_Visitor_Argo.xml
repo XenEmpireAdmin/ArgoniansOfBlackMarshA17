@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
   <TraderKindDef>
     <defName>Visitor_Argo_Standard</defName>
@@ -13,7 +13,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Component</thingDef>
+        <thingDef>ComponentIndustrial</thingDef>
 				<price>Expensive</price>
 				<countRange>
           <min>-2</min>
@@ -32,7 +32,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Medicine</thingDef>
+        <thingDef>MedicineIndustrial</thingDef>
         <countRange>
           <min>0</min>
           <max>6</max>
@@ -72,4 +72,4 @@
     </stockGenerators>
   </TraderKindDef>
 
-</DefPackage-TraderKindDef>
+</Defs>
