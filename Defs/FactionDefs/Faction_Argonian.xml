@@ -7,6 +7,7 @@
     <description>A tribe of the strange and mysterious Argonian or Saxhleel race.</description>
     <pawnsPlural>Argonians</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
@@ -80,6 +81,16 @@
           <ArgoHunter>130</ArgoHunter>
           <ArgoHistGuard>130</ArgoHistGuard>
         </guards>
+      </li>
+        <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <ArgoColonist>50</ArgoColonist>
+          <ArgoGuard>90</ArgoGuard>
+          <ArgoHistSpeaker>250</ArgoHistSpeaker>
+          <ArgoFighter>100</ArgoFighter>
+          <ArgoShadowscale>170</ArgoShadowscale>
+        </options>
       </li>
 	  <li>
         <kindDef>Settlement</kindDef>
